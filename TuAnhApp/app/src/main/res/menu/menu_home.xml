@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    >
+    <item
+        android:id="@+id/mnHome"
+        android:title="@string/menu_item_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/menu_item"        />
+    <item
+        android:id="@+id/mnAboutUs"
+        android:title="@string/menu_item_about"
+        android:orderInCategory="100"
+        android:icon="@drawable/menu_item"/>
+    <item
+        android:id="@+id/mnManager"
+        android:icon="@drawable/menu_item"
+        android:title="@string/menu_item_manager"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/mnMap"
+        android:icon="@drawable/menu_item"
+        android:title="@string/menu_item_map"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/mnLogin"
+        android:icon="@drawable/menu_item"
+        android:title="@string/menu_item_login"
+        android:orderInCategory="100"/>
+</menu>

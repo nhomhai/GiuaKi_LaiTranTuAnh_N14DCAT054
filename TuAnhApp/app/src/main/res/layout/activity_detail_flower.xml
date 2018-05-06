@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuanh.tuanhapp.Admin.DetailFlowerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="38dp"
+            android:text="ID:" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText_name_add_flower"
+            android:layout_alignBottom="@+id/editText_name_add_flower"
+            android:layout_alignStart="@+id/textView3"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/editText_name_add_flower"
+            android:layout_marginTop="21dp"
+            android:text="Loai:" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="32dp"
+            android:text="Hình ảnh:" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="25dp"
+            android:text="Số lượng" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="32dp"
+            android:text="Giá: " />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="34dp"
+            android:text="Tình trạng:" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="34dp"
+            android:text="Mô tả:" />
+
+        <EditText
+            android:id="@+id/editText_ID_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignStart="@+id/editText_tinhtrang_add_flower"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="number"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_name_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText_ID_add_flower"
+            android:layout_below="@+id/editText_ID_add_flower"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Tên Hoa"
+            android:inputType="text"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_loai_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText_name_add_flower"
+            android:layout_below="@+id/editText_name_add_flower"
+            android:ems="10"
+            android:hint="Loại"
+            android:inputType="text"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_hinhAnh_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText_loai_add_flower"
+            android:layout_below="@+id/editText_loai_add_flower"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Hình ảnh"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_soluong_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignStart="@+id/editText_hinhAnh_add_flower"
+            android:ems="10"
+            android:hint="Số lượng"
+            android:inputType="textPersonName"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_gia_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText_soluong_add_flower"
+            android:layout_below="@+id/editText_soluong_add_flower"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Giá"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_tinhtrang_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_gia_add_flower"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/textView9"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Tình trạng"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_mota_add_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_alignStart="@+id/editText_tinhtrang_add_flower"
+            android:ems="10"
+            android:hint="Mô tả"
+            android:inputType="text"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText_mota_add_flower"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:onClick="EditFlower"
+            android:text="edit Flower" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnEdit"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/btnEdit"
+            android:text="save"
+            android:visibility="invisible"
+            android:onClick="Save"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

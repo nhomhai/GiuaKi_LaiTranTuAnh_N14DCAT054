@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "619788113789",
+    "firebase_url": "https://tuanhapp-b6438.firebaseio.com",
+    "project_id": "tuanhapp-b6438",
+    "storage_bucket": "tuanhapp-b6438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619788113789:android:e9c8e73a6c57158f",
+        "android_client_info": {
+          "package_name": "com.example.tuanh.tuanhapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619788113789-mdhnis4ujq9t9ntbgl54e3otrvafjlq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tuanh.tuanhapp",
+            "certificate_hash": "00ff79e38aa7ae03f1369c38a816823563ef3b1d"
+          }
+        },
+        {
+          "client_id": "619788113789-858lkvg9n5m425rg7ur14v4r5pqmvug6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3D0XYi7sQSM6NgYPjhUBdbsigc8pg-pY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619788113789-858lkvg9n5m425rg7ur14v4r5pqmvug6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

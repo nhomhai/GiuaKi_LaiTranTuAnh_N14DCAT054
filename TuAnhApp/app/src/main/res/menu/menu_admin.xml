@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/menu_admin_home"
+    android:id="@+id/item_admin_home"/>
+    <item
+        android:title="@string/menu_admin_user"
+        android:id="@+id/item_admin_user"/>
+    <item
+        android:title="@string/menu_admin_flower"
+        android:id="@+id/item_admin_flower"/>
+    <item
+        android:title="@string/menu_admin_order"
+        android:id="@+id/item_admin_order"/>
+    <item
+        android:title="@string/menu_admin_order_detail"
+        android:id="@+id/item_admin_order_detail"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/item_admin_logout"
+        />
+</menu>
